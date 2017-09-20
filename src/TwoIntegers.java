@@ -13,6 +13,8 @@ public class TwoIntegers
 	{
 		this.num1 = num1;
 		this.num2 = num2;
+	if (num1 > num2)
+		System.out.printf("%d > %d\n", num1, num2);
 	}
 	public int getNum1()
 	{
@@ -52,7 +54,15 @@ public class TwoIntegers
 	}
 	public String arithmetic()
 	{
-		
+		String arithmetic = "";
+		arithmetic = "Sum = " + sum();
+		arithmetic = "Product =" + product();
+		arithmetic = "Difference =" + difference();
+		arithmetic = "Quotient =" + quotient();
 		return arithmetic;
+	}
+	public int nextInt() 
+	{
+		return 0;
 	}
 }

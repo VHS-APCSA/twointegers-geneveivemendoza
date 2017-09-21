@@ -9,6 +9,5 @@ public class TwoIntegersRunner
     	int num1 = input.nextInt();
     	System.out.println("Enter second integer.");
     	int num2 = input.nextInt();
-    	System.out.println("is larger" + (num1 > num2));		
     }
 }

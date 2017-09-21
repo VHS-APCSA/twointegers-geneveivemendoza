@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class TwoIntegers 
 {
 	private int num1;
@@ -13,8 +11,6 @@ public class TwoIntegers
 	{
 		this.num1 = num1;
 		this.num2 = num2;
-	if (num1 > num2)
-		System.out.printf("%d > %d\n", num1, num2);
 	}
 	public int getNum1()
 	{
@@ -64,5 +60,24 @@ public class TwoIntegers
 	public int nextInt() 
 	{
 		return 0;
+	}
+	public String comparingIntegers()
+	{
+		String comparingIntegers = "";
+		if (num1 > num2)
+		{
+			comparingIntegers = num1 + " > " + num2;
+			System.out.printf("%d > %d\n", num1, num2);
+		}
+		else
+			System.out.println("is larger" + (num1 > num2));
+		if (num1 == num2)
+		{
+			comparingIntegers = num1 + "==" + num2;
+			System.out.printf("%d == %d\n", num1, num2);
+		}
+		else
+			System.out.println("The number is equal");
+		return comparingIntegers;
 	}
 }

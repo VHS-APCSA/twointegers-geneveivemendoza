@@ -11,6 +11,7 @@ public class TwoIntegers
 	{
 		this.num1 = num1;
 		this.num2 = num2;
+
 	}
 	public int getNum1()
 	{
@@ -79,5 +80,28 @@ public class TwoIntegers
 		else
 			System.out.println("The number is equal");
 		return comparingIntegers;
+	}
+	public boolean isEven()
+	{
+		if (num1 %2==0)
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
+	}
+	public boolean isMultiple()
+	{
+		if (num1 % num2==0)
+		{
+			return true;
+			
+		}
+		else
+		{
+			return false;
+		}
 	}
 }

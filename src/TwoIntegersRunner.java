@@ -9,5 +9,7 @@ public class TwoIntegersRunner
     	int num1 = input.nextInt();
     	System.out.println("Enter second integer.");
     	int num2 = input.nextInt();
+    	TwoIntegers twointegers = new TwoIntegers(2, 4);
+    	System.out.println(num1 + " is multiple of " + num2);
     }
 }

@@ -68,17 +68,12 @@ public class TwoIntegers
 		if (num1 > num2)
 		{
 			comparingIntegers = num1 + " > " + num2;
-			System.out.printf("%d > %d\n", num1, num2);
 		}
-		else
-			System.out.println("is larger" + (num1 > num2));
-		if (num1 == num2)
+		else if (num1 == num2)
 		{
 			comparingIntegers = num1 + "==" + num2;
-			System.out.printf("%d == %d\n", num1, num2);
 		}
-		else
-			System.out.println("The number is equal");
+		
 		return comparingIntegers;
 	}
 	public boolean isEven()

@@ -69,12 +69,20 @@ public class TwoIntegers
 		{
 			comparingIntegers = num1 + " > " + num2;
 		}
-		else if (num1 == num2)
+		else
+		{
+			System.out.println(num1 + " is larger " + num2 + " :" + (num1 > num2));
+		}
+		if (num1 == num2)
 		{
 			comparingIntegers = num1 + "==" + num2;
 		}
-		
+		else
+		{
+			System.out.println("The numbers are equal " + ":" + (num1 == num2));
+		}
 		return comparingIntegers;
+		
 	}
 	public boolean isEven()
 	{

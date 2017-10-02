@@ -21,10 +21,13 @@ public class TwoIntegersRunner
     	System.out.println("Quotient = " + twoIntegers.quotient());
     	System.out.println(operators);
     	String compare = twoIntegers.comparingIntegers();
-    	System.out.printf("%d > %d\n", num1, num2);
-    	System.out.println(num1 + " is larger " + num2 + " :" + (num1 > num2));
-    	System.out.printf("%d = %d\n", num1, num2);
-    	System.out.println("The numbers are equal " + ":" + (num1 == num2));	
-    	System.out.println(compare);
+    	if(num1 > num2)
+    	{
+    		System.out.println(num1 + " is larger " + num2 + " :" + compare);
+    	}
+    	if(num1 == num2)
+    	{
+    		System.out.println("The numbers are equal " + ":" + compare);
+    	}	
     }
 }

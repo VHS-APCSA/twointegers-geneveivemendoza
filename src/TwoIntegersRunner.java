@@ -23,7 +23,7 @@ public class TwoIntegersRunner
     	String compare = twoIntegers.comparingIntegers();
     	if(num1 > num2)
     	{
-    		System.out.println(num1 + " is larger " + num2 + " :" + compare);
+    		System.out.println(num1 + " is larger than " + num2 + " :" + compare);
     	}
     	if(num1 == num2)
     	{

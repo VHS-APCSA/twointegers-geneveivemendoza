@@ -52,10 +52,10 @@ public class TwoIntegers
 	public String arithmetic()
 	{
 		String arithmetic = "";
-		arithmetic = "Sum = " + sum();
-		arithmetic = "Product =" + product();
-		arithmetic = "Difference =" + difference();
-		arithmetic = "Quotient =" + quotient();
+		arithmetic = "Sum = " + sum() + "\n";
+		arithmetic += "Product =" + product() + "\n";
+		arithmetic += "Difference =" + difference() + "\n";
+		arithmetic += "Quotient =" + quotient();
 		return arithmetic;
 	}
 	public int nextInt() 
@@ -69,17 +69,13 @@ public class TwoIntegers
 		{
 			comparingIntegers = num1 + " > " + num2;
 		}
-		else
-		{
-			System.out.println(num1 + " is larger than " + num2 + " :" + (num1 > num2));
-		}
-		if (num1 == num2)
+		else if (num1 == num2)
 		{
 			comparingIntegers = num1 + "==" + num2;
 		}
 		else
 		{
-			System.out.println("The numbers are equal " + ":" + (num1 == num2));
+			comparingIntegers = num1 + "<" + num2;
 		}
 		return comparingIntegers;
 		

@@ -15,19 +15,8 @@ public class TwoIntegersRunner
     	boolean multiple = twoIntegers.isMultiple();
     	System.out.println(twoIntegers.getNum1() + " is multiple of " + num2 + " = " + multiple);
     	String operators = twoIntegers.arithmetic();
-    	System.out.println("Sum = " + twoIntegers.sum());
-    	System.out.println("Product = " + twoIntegers.product());
-    	System.out.println("Difference = " + twoIntegers.difference());
-    	System.out.println("Quotient = " + twoIntegers.quotient());
     	System.out.println(operators);
     	String compare = twoIntegers.comparingIntegers();
-    	if(num1 > num2)
-    	{
-    		System.out.println(num1 + " is larger than " + num2 + " :" + compare);
-    	}
-    	if(num1 == num2)
-    	{
-    		System.out.println("The numbers are equal " + ":" + compare);
-    	}	
+    	System.out.println(compare);
     }
 }
